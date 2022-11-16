@@ -1,0 +1,126 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+}
+
+/*
+.navbar-left{
+    display: flex;
+    justify-content: space-between;
+} */
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar-logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+.navbar-quicklinks{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+
+
+.sb-globalNav_desktopListItem{
+    display: inline-block;
+    box-sizing: inherit;
+    text-align: -webkit-match-parent;
+}
+
+.nav-links{
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    letter-spacing: .1em !important;
+    font-weight: 700 !important;
+    color: rgba(0,0,0,0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: .8rem !important;
+    padding: 10px;
+}
+
+.locator-container{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.location-pin{
+    padding-right: 1rem;
+}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.store-locator-link{
+    text-decoration: none !important;
+    letter-spacing: .1em !important;
+    font-weight: 700 !important;
+    color: rgba(0,0,0,0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: .8rem !important;
+}
+
+.nav-bar-right-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-right-link:hover{
+    color: green;
+}
+
+.nav-links:hover{
+    color: green;
+}
+
+.nav-button-container{
+    padding-right: 1rem;
+}
+
+.button-nav{
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 5rem;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-grow: inherit;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+    transition: all .2s ease;
+}
+
+.join-now-button{
+    background-color: rgba(0,0,0,0.87);
+    color: white;
+    width: 6rem;
+}
+
+.button-nav-sign-in:hover{
+background-color: rgb(240,240,240)
+}
+
+.join-now-button:hover{
+    background-color: rgb(80,80,80);
+}
