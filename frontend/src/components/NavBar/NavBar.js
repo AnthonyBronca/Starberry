@@ -28,7 +28,7 @@ export default function NavBar() {
                                 to='/menu'
                                 exact={true}
                                 id='navbar-menu-link'
-                                onClick={console.log('menu')}
+                                onClick={() => console.log('menu')}
                             >MENU</NavLink>
                         </li>
                         <li>
@@ -37,7 +37,7 @@ export default function NavBar() {
                                 to='/rewards'
                                 exact={true}
                                 id='navbar-rewards-link'
-                                onClick={console.log('menu')}
+                                onClick={() => console.log('menu')}
                             >Rewards</NavLink>
                         </li>
                         <li>
@@ -46,7 +46,7 @@ export default function NavBar() {
                                 to='/gift'
                                 exact={true}
                                 id='navbar-gift-link'
-                                onClick={console.log('menu')}
+                                onClick={() => console.log('menu')}
                             >Gift Cards</NavLink>
                         </li>
                     </ul>
